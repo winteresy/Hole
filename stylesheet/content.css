@@ -1,0 +1,122 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-width: 1024px;
+  max-width: 1440px;
+  font-family: "HalvarBreit";
+  background-color: #1D1D1B;
+  overflow: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+.page__left {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 756px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 8px 0 0 8px;
+  border: 1px solid #95C11F;
+}
+.vector_head {
+  margin: 0;
+  border: 2px solid #95C11F;
+  width: 142px;
+  height: 142px;
+}
+.hole_header {
+  display: flex;
+  text-align: left;
+  margin: 0;
+  border: 2px solid #95C11F;
+  width: 470px;
+  height: 142px;
+}
+.hole_header_phrase {
+  padding-top: 16px;
+  padding-left: 16px;
+  max-width: 450px;
+  color: white;
+  font-size: 3vw;
+  text-transform: uppercase;
+}
+.cut_circles_container {
+  margin: 0;
+  border: 2px solid #95C11F;
+  background-color: #95C11F;
+  width: 142px;
+  height: 142px;
+}
+.cut_circles_image {
+  max-width: 142px;
+  height: 142px;
+  background-image: url(../images/cut_cirles.svg);
+  background-size: cover;
+}
+.circle_blue {
+  margin: 0;
+  border: 2px solid #95C11F;
+  width: 454px;
+  height: 454px;
+}
+.white_container {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+  align-content: center;
+  margin: 0;
+  border: 2px solid #95C11F;
+  background-color: white;
+  width: 299px;
+  height: 454px;
+}
+.circle {
+  width: 73px;
+  height: 73px;
+  border-radius: 100%;
+  background: #000;
+}
+.circle:hover {
+  width: 30px;
+  height: 30px;
+}
+.logo_bottom{
+  align-self: stretch;
+  display: flex;
+  width: 756px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+.hole_logo {
+  margin: 20px 0;
+  width: 467px;
+  height: 154px;
+}
+.triangles {
+  margin: 0;
+  width: 211px;
+  height: 194px;
+  background-image: url(../images/triangles.svg);
+  background-size: cover;
+}
+.page__right {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 506px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 8px 8px 0 0;
+  border: 1px solid #95C11F;
+}
+.cosmos {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0;
+  border: 2px solid #95C11F;
+  background-color: white;
+  width: 506px;
+  height: 251px;
+}
