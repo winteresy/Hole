@@ -1,6 +1,4 @@
 .page {
-  display: flex;
-  flex-direction: column;
   min-width: 1024px;
   max-width: 1440px;
   font-family: "HalvarBreit";
@@ -11,22 +9,23 @@
   box-sizing: border-box;
 }
 .page__left {
-  display: flex;
-  justify-content: flex-start;
+  position:relative;
+  display: inline-block;
   max-width: 756px;
-  flex-wrap: wrap;
-  flex-direction: row;
   margin: 8px 0 0 8px;
   border: 1px solid #95C11F;
 }
 .vector_head {
+  position: relative;
+  display: inline-block;
   margin: 0;
   border: 2px solid #95C11F;
   width: 142px;
   height: 142px;
 }
 .hole_header {
-  display: flex;
+  position: relative;
+  display: inline-block;
   text-align: left;
   margin: 0;
   border: 2px solid #95C11F;
@@ -34,6 +33,7 @@
   height: 142px;
 }
 .hole_header_phrase {
+  position: absolute;
   padding-top: 16px;
   padding-left: 16px;
   max-width: 450px;
@@ -42,11 +42,14 @@
   text-transform: uppercase;
 }
 .cut_circles_container {
+  position: relative;
+  display: inline-block;
   margin: 0;
   border: 2px solid #95C11F;
   background-color: #95C11F;
   width: 142px;
   height: 142px;
+  overflow: hidden;
 }
 .cut_circles_image {
   max-width: 142px;
@@ -54,15 +57,33 @@
   background-image: url(../images/cut_cirles.svg);
   background-size: cover;
 }
-.circle_blue {
-  margin: 0;
+.circle_blue_container {
   border: 2px solid #95C11F;
   width: 454px;
   height: 454px;
 }
+.circle_blue {
+  background-image: url(../images/circle_blue.png);
+  width: 452px;
+  height: 452px;
+  background-size: cover;
+  margin: auto;
+}
+.circle_blue_container:hover .circle_blue {
+  animation: circle 2.2s ease-in infinite;
+}
+@keyframes circle {
+  from {
+    background-image: url(../images/circle_blue.png);
+  }
+  to {
+    background-image: url(../images/black_hole.png);
+    transform: scale(.1);
+  }
+}
 .white_container {
   display: flex;
-  flex-flow: wrap row;
+  flex-wrap: wrap;
   justify-content: center;
   align-content: center;
   margin: 0;
@@ -71,15 +92,56 @@
   width: 299px;
   height: 454px;
 }
+.circle_container {
+  display: inline-block;
+  position: relative;
+  width: 73px;
+  height: 73px;
+}
 .circle {
   width: 73px;
   height: 73px;
   border-radius: 100%;
   background: #000;
+  margin: auto;
+  position: absolute;
+  transition: transform .1s ease;
 }
-.circle:hover {
-  width: 30px;
-  height: 30px;
+.circle_container:hover .circle1 {
+  transform: scale(.9);
+  background: #0000ff;
+}
+.circle_container:hover .circle2 {
+  transform: scale(.8);
+  background: #0000ff;
+}
+.circle_container:hover .circle3 {
+  transform: scale(.7);
+  background: #0000ff;
+}
+.circle_container:hover .circle4 {
+  transform: scale(.6);
+  background: #0000ff;
+}
+.circle_container:hover .circle5 {
+  transform: scale(.5);
+  background: #0000ff;
+}
+.circle_container:hover .circle6 {
+  transform: scale(.4);
+  background: #0000ff;
+}
+.circle_container:hover .circle7 {
+  transform: scale(.3);
+  background: #0000ff;
+}
+.circle_container:hover .circle8 {
+  transform: scale(.2);
+  background: #0000ff;
+}
+.circle_container:hover .circle9 {
+  transform: scale(.1);
+  background: #0000ff;
 }
 .logo_bottom{
   align-self: stretch;
@@ -103,10 +165,9 @@
 }
 .page__right {
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   max-width: 506px;
   flex-wrap: wrap;
-  flex-direction: row;
   margin: 8px 8px 0 0;
   border: 1px solid #95C11F;
 }
