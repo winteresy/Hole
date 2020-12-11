@@ -1,4 +1,5 @@
 .page {
+  display: flex;
   min-width: 1024px;
   max-width: 1440px;
   font-family: "HalvarBreit";
@@ -14,6 +15,7 @@
   max-width: 756px;
   margin: 8px 0 0 8px;
   border: 1px solid #95C11F;
+  font-size: 0;
 }
 .vector_head {
   position: relative;
@@ -58,11 +60,15 @@
   background-size: cover;
 }
 .circle_blue_container {
+  position: relative;
+  display: inline-block;
   border: 2px solid #95C11F;
   width: 454px;
   height: 454px;
+  margin-top: 0;
 }
 .circle_blue {
+  position: absolute;
   background-image: url(../images/circle_blue.png);
   width: 452px;
   height: 452px;
@@ -70,23 +76,25 @@
   margin: auto;
 }
 .circle_blue_container:hover .circle_blue {
-  animation: circle 2.2s ease-in infinite;
+  animation: circle 4.2s ease-in infinite;
 }
 @keyframes circle {
-  from {
+  0% {
     background-image: url(../images/circle_blue.png);
   }
-  to {
+  50% {
     background-image: url(../images/black_hole.png);
-    transform: scale(.1);
+    transform: scale(.01);
+  }
+  100% {
+    background-image: url(../images/circle_blue.png);
+    transform: scale(1);
   }
 }
 .white_container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  margin: 0;
+  position: relative;
+  display: inline-block;
+  padding: 5px 0 0 1px;
   border: 2px solid #95C11F;
   background-color: white;
   width: 299px;
