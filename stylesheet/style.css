@@ -1,6 +1,6 @@
 @import 'reset.css';
-@import 'responsive.css';
 @import 'content.css';
+@import 'responsive.css';
 @font-face {
     font-family: "HalvarBreit";
     src: url("../fonts/HalvarBreit-Lt.woff") format("woff");
