@@ -1,4 +1,4 @@
-@media all and (min-device-width: 1366px ){
+@media all and (min-width: 1366px ){
   /*.page {
    max-width: 1366px;
  }
@@ -10,4 +10,54 @@
    max-width: 909px;
    min-width: 809px;
  }*/
+}
+@media only screen and (min-width: 1680px) and (max-width: 1920px) {
+  /* MacBook Pro 2020*/
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1680px) {
+  /* MacBook Pro 2020*/
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1440px) {
+  /* MacBook Pro 2020*/
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1366px) {
+  /* Macbook Air 11.6"*/
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  /* MacBook Pro 13"*/
+
+  /* ////////////// */
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Desktop */
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* iPad */
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  /* iPad Portrait */
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* iPad Landscape */
+}
+@media only screen and (min-width: 320px) {
+  /* iPhone X */
+}
+
+@media only screen and (min-width: 320px) {
+  /* iPhone X */
 }

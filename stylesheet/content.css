@@ -2,6 +2,7 @@ body {
   background-color: #1D1D1B;
   font-family: "HalvarBreit";
   font-size: 0;
+  padding: 8px;
 }
 .page {
   min-width: 1024px;
@@ -15,15 +16,15 @@ body {
   position:relative;
   display: inline-block;
   width: 756px;
-  margin: 8px 0 0 8px;
+  margin: 0;
 }
 .vector_head {
   position: relative;
   display: inline-block;
   margin: 0;
   border: 2px solid #95C11F;
-  width: 142px;
-  height: 142px;
+  width: 18.78%;
+  height: 18.78%;
 }
 .hole_header {
   position: relative;
@@ -31,7 +32,7 @@ body {
   text-align: left;
   margin: 0;
   border: 2px solid #95C11F;
-  width: 470px;
+  width: 62.17%;
   height: 142px;
 }
 .hole_header_phrase {
@@ -49,7 +50,7 @@ body {
   margin: 0;
   border: 2px solid #95C11F;
   background-color: #95C11F;
-  width: 142px;
+  width: 18.78%;
   height: 142px;
   overflow: hidden;
 }
@@ -71,7 +72,7 @@ body {
   position: relative;
   display: inline-block;
   height: 452px;
-  width: 756px;
+  width: 100%;
   margin-top: -2px;
 }
 .circle_blue_container {
@@ -108,7 +109,7 @@ body {
 }
 .white_container {
   position: absolute;
-  right: 0;
+  right: 2px;
   padding: 5px 3px 0 4px;
   border: 2px solid #95C11F;
   background-color: white;
@@ -173,10 +174,13 @@ body {
   width: 467px;
   height: 154px;
   background-image: url(../images/hole.png);
-  transition: background-image .3s;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: background-image .2s;
 }
 .hole_logo:hover {
   background-image: url(../images/time.png);
+  background-position: left center;
 }
 .triangles {
   position: relative;
@@ -190,15 +194,15 @@ body {
 .page__right_1 {
   position: relative;
   display: inline-block;
-  max-width: 667px;
-  margin: 8px 8px 0 -2px;
+  width: 47.04%;
+  margin: 0 0 0 -2px;
 }
 .cosmos {
   position: relative;
   margin: 0;
   border: 2px solid #95C11F;
   background-color: white;
-  width: 667px;
+  width: 100%;
   height: 251px;
 }
 .cosmos__сut-circle_left {
@@ -242,13 +246,13 @@ body {
   position: relative;
   display: inline-block;
   margin-top: -1px;
-  width: 667px;
+  width: 100%;
   height: 550px;
   border: 2px solid #95C11F;
   background-image: url(../images/stars_animate.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  animation: stars_animate 4s steps(1) infinite;
+  animation: stars_animate 6s steps(1) infinite;
 }
 @keyframes stars_animate {
   0% {background-position: 0 top;}
@@ -273,7 +277,7 @@ body {
   width: 514px;
   height: 788px;
   border: 2px solid #95C11F;
-  margin: -2px 0 0 8px;
+  margin: -2px 0 0 0;
 }
 .ovals {
   position: relative;
@@ -468,7 +472,7 @@ body {
 .image_mountains_container {
   position: relative;
   display: inline-block;
-  width: 909px;
+  width: 912px;
   height: 788px;
   border: 2px solid #95C11F;
   margin-left: -2px;
@@ -547,7 +551,7 @@ body {
   height: 800px;
   overflow: hidden;
   border: 2px solid #95C11F;
-  margin: -2px 11px 8px 8px;
+  margin: -2px 0 0 0;
   overflow: hidden;
 }
 .circle_blue_third-page_1 {
