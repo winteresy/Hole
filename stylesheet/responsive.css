@@ -1,42 +1,38 @@
-@media all and (min-width: 1366px ){
-  /*.page {
-   max-width: 1366px;
- }
- .ovals_container {
-   min-width: 450px;
-   max-width: 514px;
- }
- .image_mountains_container {
-   max-width: 909px;
-   min-width: 809px;
- }*/
-}
 @media only screen and (min-width: 1680px) and (max-width: 1920px) {
   /* MacBook Pro 2020*/
 }
-
-@media only screen and (min-width: 1440px) and (max-width: 1680px) {
-  /* MacBook Pro 2020*/
-}
-
 @media only screen and (min-width: 1366px) and (max-width: 1440px) {
   /* MacBook Pro 2020*/
+  .cosmos {
+   width: 98.5%;
+   right: calc(0% + width);
+  }
+  .stars_animate {
+   width: 98.5%;
+   right: calc(0% + width);
+  }
 }
 
 @media only screen and (min-width: 1280px) and (max-width: 1366px) {
-.cosmos {
- width: 99%;
- right: calc(0% + width);
-}
-.stars_animate {
- width: 99%;
- right: calc(0% + width);
-}
+  .cosmos {
+   width: 98.5%;
+   right: calc(0% + width);
+  }
+  .stars_animate {
+   width: 98.5%;
+   right: calc(0% + width);
+  }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1280px) {
   /* MacBook Pro 13"*/
-
-  /* ////////////// */
+  .cosmos {
+   width: 98.5%;
+   right: calc(0% + width);
+  }
+  .stars_animate {
+   width: 98.5%;
+   right: calc(0% + width);
+  }
 }
 
 

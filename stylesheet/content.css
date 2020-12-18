@@ -545,7 +545,8 @@ body {
 }
 .page_3 {
   position: relative;
-  width: 1424px;
+  max-width: 1424px;
+  min-width: 1024px;
   height: 800px;
   overflow: hidden;
   border: 2px solid #95C11F;
