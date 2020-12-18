@@ -5,8 +5,7 @@ body {
   padding: 8px;
 }
 .page {
-  min-width: 1024px;
-  max-width: 1440px;
+  width: 1424px;
   overflow: hidden;
 }
 * {
@@ -15,7 +14,7 @@ body {
 .page__left_1 {
   position:relative;
   display: inline-block;
-  width: 756px;
+  width: 53.09%;
   margin: 0;
 }
 .vector_head {
@@ -546,8 +545,7 @@ body {
 }
 .page_3 {
   position: relative;
-  min-width: 1024px;
-  max-width: 1440px;
+  width: 1424px;
   height: 800px;
   overflow: hidden;
   border: 2px solid #95C11F;

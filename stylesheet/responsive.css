@@ -24,10 +24,15 @@
 }
 
 @media only screen and (min-width: 1280px) and (max-width: 1366px) {
-  /* Macbook Air 11.6"*/
+.cosmos {
+ width: 99%;
+ right: calc(0% + width);
 }
-
-
+.stars_animate {
+ width: 99%;
+ right: calc(0% + width);
+}
+}
 @media only screen and (min-width: 1024px) and (max-width: 1280px) {
   /* MacBook Pro 13"*/
 
