@@ -1,4 +1,8 @@
-@media only screen and (min-width: 1680px) and (max-width: 1920px) {
+@media only screen and (min-width: 1440px) and (max-width: 1680px) {
+  .hole_header_phrase {
+    font-size: 44px;
+  }
+
   /* MacBook Pro 2020*/
 }
 @media only screen and (min-width: 1366px) and (max-width: 1440px) {
