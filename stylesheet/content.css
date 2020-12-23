@@ -3,6 +3,9 @@ body {
   font-family: "HalvarBreit";
   font-size: 0;
 }
+.border {
+  border: 2px solid #95C11F;
+}
 .wrapper {
     background: transparent;
     position: relative;
@@ -38,7 +41,6 @@ body {
   position: relative;
   display: inline-block;
   margin: 0;
-  border: 2px solid #95C11F;
   width: 18.78%;
   height: 17.95%;
 }
@@ -47,7 +49,6 @@ body {
   display: inline-block;
   text-align: left;
   margin-left: -0.26%;
-  border: 2px solid #95C11F;
   width: 62.17%;
   height: 17.95%;
 }
@@ -63,7 +64,6 @@ body {
 .cut_circles_container {
   position: relative;
   display: inline-block;
-  border: 2px solid #95C11F;
   background-color: #95C11F;
   width: 18.78%;
   height: 17.95%;
@@ -94,7 +94,6 @@ body {
   position: absolute;
   width: 59.79%;
   height: 100%;
-  border: 2px solid #95C11F;
   left: 0;
   right: 0;
 }
@@ -129,7 +128,6 @@ body {
   position: absolute;
   right: 4px;
   padding: 7px 2px 0 5px;
-  border: 2px solid #95C11F;
   background-color: white;
   width: 40.34%;
   height: 100%;
@@ -225,7 +223,6 @@ body {
 .cosmos {
   position: relative;
   margin: 0;
-  border: 2px solid #95C11F;
   background-color: white;
   width: 100%;
   height: 31.69%;
@@ -273,7 +270,6 @@ body {
   margin-top: -1px;
   width: 100%;
   height: 68.44%;
-  border: 2px solid #95C11F;
   overflow: hidden;
 }
 .stars_animate_sprites {
@@ -303,7 +299,6 @@ body {
   margin-top: -2px;
   width: 36.1%;
   height: 33.03%;
-  border: 2px solid #95C11F;
 }
 .ovals {
   position: relative;
@@ -504,7 +499,6 @@ body {
   margin-right: 0.56%;
   width: 62.91%;
   height: 33.03%;
-  border: 2px solid #95C11F;
   margin-left: -2px;
   background-image: url(../images/mountains.png);
   background-size: cover;
@@ -579,7 +573,6 @@ body {
   width: 98.89%;
   height: 33.53%;
   overflow: hidden;
-  border: 2px solid #95C11F;
   margin: -2px 0.56% 0.34%;
   overflow: hidden;
 }
