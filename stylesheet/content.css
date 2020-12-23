@@ -2,20 +2,37 @@ body {
   background-color: #1D1D1B;
   font-family: "HalvarBreit";
   font-size: 0;
-  padding: 8px;
 }
-.page {
-  width: 1424px;
-  overflow: hidden;
+.wrapper {
+    background: transparent;
+    position: relative;
+    width: 100%;
+}
+.ratio {
+    position: relative;
+    padding-bottom: 166.806%;
+    background: transparent;
+}
+.content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    background: transparent;
 }
 * {
   box-sizing: border-box;
 }
 .page__left_1 {
+  overflow: hidden;
   position:relative;
   display: inline-block;
-  width: 53.09%;
-  margin: 0;
+  width: 52.96%;
+  height: 33.19%;
+  margin-top: 0.33%;
+  margin-left: 0.56%;
 }
 .vector_head {
   position: relative;
@@ -23,22 +40,22 @@ body {
   margin: 0;
   border: 2px solid #95C11F;
   width: 18.78%;
-  height: 18.78%;
+  height: 17.95%;
 }
 .hole_header {
   position: relative;
   display: inline-block;
   text-align: left;
-  margin: 0;
+  margin-left: -0.26%;
   border: 2px solid #95C11F;
   width: 62.17%;
-  height: 142px;
+  height: 17.95%;
 }
 .hole_header_phrase {
   position: absolute;
-  padding-top: 16px;
-  padding-left: 16px;
-  max-width: 450px;
+  padding-top: 3.4%;
+  padding-left: 3.4%;
+  width: 100%;
   color: white;
   font-size: 3vw;
   text-transform: uppercase;
@@ -46,16 +63,15 @@ body {
 .cut_circles_container {
   position: relative;
   display: inline-block;
-  margin: 0;
   border: 2px solid #95C11F;
   background-color: #95C11F;
   width: 18.78%;
-  height: 142px;
+  height: 17.95%;
   overflow: hidden;
 }
 .cut_circles_image {
-  width: 138px;
-  height: 138px;
+  width: 100%;
+  height: 100%;
   background-image: url(../images/cut_cirles.svg);
   background-size: cover;
   animation: move_cut-circles 3s linear infinite;
@@ -70,21 +86,21 @@ body {
 .second_line {
   position: relative;
   display: inline-block;
-  height: 452px;
+  height: 56.5%;
   width: 100%;
   margin-top: -2px;
 }
 .circle_blue_container {
   position: absolute;
-  width: 452px;
-  height: 452px;
+  width: 59.79%;
+  height: 100%;
   border: 2px solid #95C11F;
   left: 0;
   right: 0;
 }
 .circle_blue_first-page {
   position: absolute;
-  width: 100%;
+  width: 99%;
   height: 100%;
   left: 0;
   right: 0;
@@ -111,22 +127,22 @@ body {
 }
 .white_container {
   position: absolute;
-  right: 2px;
-  padding: 5px 3px 0 4px;
+  right: 4px;
+  padding: 7px 2px 0 5px;
   border: 2px solid #95C11F;
   background-color: white;
-  width: 305px;
-  height: 452px;
+  width: 40.34%;
+  height: 100%;
 }
 .circle_container {
   display: inline-block;
   position: relative;
-  width: 73px;
-  height: 73px;
+  width: 24.36%;
+  height: 16.37%;
 }
 .circle {
-  width: 73px;
-  height: 73px;
+  width: 100%;
+  height: 100%;
   border-radius: 100%;
   background: #000;
   margin: auto;
@@ -172,9 +188,9 @@ body {
 .hole_logo {
   position: relative;
   display: inline-block;
-  margin: 20px 58px 30px 0;
-  width: 467px;
-  height: 154px;
+  margin: 2.53% 7.67% 3.79% 0%;
+  width: 61.77%;
+  height: 19.44%;
   background-image: url(../images/hole.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -187,17 +203,24 @@ body {
 .triangles {
   position: relative;
   display: inline-block;
-  margin: 0;
-  width: 229px;
-  height: 208px;
+  width: 30.29%;
+  height: 26.26%;
   background-image: url(../images/triangles.svg);
   background-size: cover;
 }
+
+
+
+
+
 .page__right_1 {
   position: relative;
   display: inline-block;
-  width: 47.04%;
-  margin: 0 0 0 -2px;
+  height: 33.19%;
+  width: 46.20%;
+  margin-top: 0.33%;
+  margin-left: -4px;
+  margin-right: 0.56%;
 }
 .cosmos {
   position: relative;
@@ -205,12 +228,12 @@ body {
   border: 2px solid #95C11F;
   background-color: white;
   width: 100%;
-  height: 251px;
+  height: 31.69%;
 }
 .cosmos__сut-circle_left {
   position: absolute;
-  height: 219px;
-  width: 109px;
+  height: 86.69%;
+  width: 16.35%;
   top: 5.03%;
   left: 15%;
   z-index: 1;
@@ -219,8 +242,8 @@ body {
   position: absolute;
   left: 38.36%;
   top: 5.03%;
-  width: 219px;
-  height: 219px;
+  width: 32.85%;
+  height: 86.69%;
   animation: move_circle 1.5s ease-in infinite;
 }
 .cosmos__space_circle:hover {
@@ -228,8 +251,8 @@ body {
 }
 .cosmos__сut-circle_right {
   position: absolute;
-  height: 219px;
-  width: 109px;
+  height: 86.69%;
+  width: 16.35%;
   top: 5.03%;
   left: 70%;
 }
@@ -249,45 +272,46 @@ body {
   display: inline-block;
   margin-top: -1px;
   width: 100%;
-  height: 550px;
+  height: 68.44%;
   border: 2px solid #95C11F;
-  background-image: url(../images/stars_animate.svg);
+  overflow: hidden;
+}
+.stars_animate_sprites {
+  position: absolute;
+  background: url("../images/stars_animate.svg");
+  overflow: hidden;
   background-size: cover;
-  background-repeat: no-repeat;
-  animation: stars_animate 6s steps(1) infinite;
+  top: 0;
+  left: 0;
+  width: 99.45%;
+  height: 100%;
+  animation: stars_animate 1.8s steps(13) alternate infinite;
 }
 @keyframes stars_animate {
-  0% {background-position: 0 top;}
-  7% {background-position: -663px top;}
-  14% {background-position: -1325px top;}
-  21% {background-position: -1987px top;}
-  28% {background-position: -2649px top;}
-  35% {background-position: -3311px top;}
-  42% {background-position: -3973px top;}
-  49% {background-position: -4635px top;}
-  56% {background-position: -5297px top;}
-  63% {background-position: -5960px top;}
-  70% {background-position: -6622px top;}
-  77% {background-position: -7284px top;}
-  84% {background-position: -7946px top;}
-  92% {background-position: -8608px top;}
-  100% {background-position: -9271px top;}
+  from {background-position: 0 0;}
+  to {background-position: 100% 0;}
 }
+
+
+
+
+
 .ovals_container {
   position: relative;
   display: inline-block;
-  width: 514px;
-  height: 788px;
+  margin-left: 0.56%;
+  margin-top: -2px;
+  width: 36.1%;
+  height: 33.03%;
   border: 2px solid #95C11F;
-  margin: -2px 0 0 0;
 }
 .ovals {
   position: relative;
-  margin: auto;
-  width: 510px;
-  height: 788px;
+  width: 100%;
+  height: 100%;
   background-image: url(../images/ovals.svg);
   background-size: cover;
+  margin-left:
 }
 .ellipse {
   background-image: url(../images/ellipse.png);
@@ -391,30 +415,30 @@ body {
 }
 .ellipse_1 {
   position: absolute;
-  top: 20px;
-  left: 30px;
-  width: 128px;
-  height: 128px;
+  top: 2.54%;
+  left: 5.84%;
+  width: 24.9%;
+  height: 16.24%;
 }
 .ellipse_1:hover {
   animation: wobble 1.5s linear;
 }
 .ellipse_2 {
   position: absolute;
-  top: 300px;
-  left: 300px;
-  width: 200px;
-  height: 200px;
+  top: 38.07%;
+  left: 58.37%;
+  width: 38.91%;
+  height: 25.38%;
 }
 .ellipse_2:hover {
   animation: pulsing .5s linear;
 }
 .ellipse_3 {
   position: absolute;
-  top: 600px;
-  left: 50px;
-  width: 150px;
-  height: 150px;
+  top: 76.14%;
+  left: 9.73%;
+  width: 29.18%;
+  height: 19.04%;
 }
 .ellipse_3:hover {
   animation: wobble 1.5s linear;
@@ -422,8 +446,8 @@ body {
 .little_circle {
   position: absolute;
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
+  width: 3.89%;
+  height: 2.54%;
 }
 .little_circle_white {
   background: #fff;
@@ -432,50 +456,55 @@ body {
   background: #95C11F;
 }
 .circle_white_1 {
-  top: 115px;
-  left: 316px;
+  top: 14.59%;
+  left: 61.48%;
 }
 .circle_white_2 {
-  top: 266px;
-  left: 133px;
+  top: 33.76%;
+  left: 25.88%;
 }
 .circle_white_3 {
-  top: 317px;
-  left: 314px;
+  top: 40.23%;
+  left: 61.09%;
 }
 .circle_white_4 {
-  top: 514px;
-  left: 100px;
+  top: 65.23%;
+  left: 19.46%;
 }
 .circle_white_5 {
-  top: 574px;
-  left: 254px;
+  top: 72.84%;
+  left: 49.42%;
 }
 .circle_white_6 {
-  top: 723px;
-  left: 143px;
+  top: 91.75%;
+  left: 27.82%;
 }
 .circle_green_1 {
-  top: 206px;
-  left: 90px;
+  top: 26.14%;
+  left: 17.51%;
 }
 .circle_green_2 {
-  top: 230px;
-  left: 475px;
+  top: 29.19%;
+  left: 92.41%;
 }
 .circle_green_3 {
-  top: 469px;
-  left: 210px;
+  top: 59.52%;
+  left: 40.86%;
 }
 .circle_green_4 {
-  top: 662px;
-  left: 390px;
+  top: 84.01%;
+  left: 75.88%;
 }
+
+
+
 .image_mountains_container {
   position: relative;
   display: inline-block;
-  width: 912px;
-  height: 788px;
+  margin-top: -2px;
+  margin-right: 0.56%;
+  width: 62.91%;
+  height: 33.03%;
   border: 2px solid #95C11F;
   margin-left: -2px;
   background-image: url(../images/mountains.png);
@@ -483,100 +512,99 @@ body {
 }
 .star {
   position: absolute;
-  width: 167px;
-  height: 215px;
+  width: 18.45%;
+  height: 27.11%;
+  top: 7.57%;
   background-image: url(../images/star.svg);
   background-size: cover;
 }
 .star_1 {
-  top: 60px;
-  left: 120px;
+  left: 13.26%;
 }
 .star_1:hover {
   background-image: url(../images/star_green.svg);
 }
 .star_2 {
-  top: 60px;
-  left: 285px;
+  left: 31.49%;
 }
 .star_2:hover {
   background-image: url(../images/star_blue.svg);
 }
 .star_3 {
-  top: 60px;
-  left: 450px;
+  left: 49.72%;
 }
 .star_3:hover {
   background-image: url(../images/star_green.svg);
 }
 .star_4 {
-  top: 60px;
-  left: 615px;
+  left: 67.96%;
 }
 .star_4:hover {
   background-image: url(../images/star_blue.svg);
 }
 .ellipse_4 {
   position: absolute;
-  top: 300px;
-  left: 100px;
-  width: 128px;
-  height: 128px;
+  top: 37.83%;
+  left: 11.05%;
+  width: 14.14%;
+  height: 16.14%;
 }
 .ellipse_4:hover {
   animation: wobble 1.5s linear;
 }
 .ellipse_5 {
   position: absolute;
-  top: 350px;
-  left: 600px;
-  width: 200px;
-  height: 200px;
+  top: 44.14%;
+  left: 66.3%;
+  width: 25.22%;
+  height: 28.67%;
 }
 .ellipse_5:hover {
   animation: wobble 1.5s linear;
 }
 .ellipse_6 {
   position: absolute;
-  top: 600px;
-  left: 300px;
-  width: 150px;
-  height: 150px;
+  top: 75.66%;
+  left: 33.15%;
+  width: 16.57%;
+  height: 18.92%;
 }
 .ellipse_6:hover {
   animation: pulsing .5s linear;
 }
+
+
+
 .page_3 {
   position: relative;
-  max-width: 1424px;
-  min-width: 1024px;
-  height: 800px;
+  width: 98.89%;
+  height: 33.53%;
   overflow: hidden;
   border: 2px solid #95C11F;
-  margin: -2px 0 0 0;
+  margin: -2px 0.56% 0.34%;
   overflow: hidden;
 }
 .circle_blue_third-page_1 {
   position: absolute;
-  width: 365px;
-  height: 365px;
-  top: 33px;
-  left: 62px;
+  width: 25.7%;
+  height: 45.63%;
+  top: 4.13%;
+  left: 4.35%;
   animation: circle_1 6s linear infinite;
-  animation-delay: 3s;
+  animation-delay: 2.4s;
 }
 @keyframes circle_1 {
  0% {opacity: 100%;}
- 55% {opacity: 100%;}
+ 50% {opacity: 100%;}
  55% {opacity: 0%;}
  100% {opacity: 0%;}
 }
 .circle_blue_third-page_2 {
   position: absolute;
-  width: 253px;
-  height: 253px;
-  bottom: 10px;
-  right: 700px;
+  width: 17.77%;
+  height: 31.63%;
+  bottom: 1.25%;
+  right: 49.16%;
   left: auto;
   animation: circle_2 10s linear infinite;
   animation-delay: 2.8s;
@@ -589,10 +617,10 @@ body {
 }
 .circle_blue_third-page_3 {
   position: absolute;
-  width: 374px;
-  height: 374px;
-  top: 334px;
-  right:64px;
+  width: 26.26%;
+  height: 46.75%;
+  top: 41.75%;
+  right: 4.49%;
   animation: circle_3 8s linear infinite;
 }
 @keyframes circle_3 {
@@ -605,41 +633,41 @@ body {
   background-image: url(../images/ship_blue.svg);
   background-size: cover;
   position: absolute;
-  width: 668px;
-  height: 319px;
-  top: 50px;
-  left: 2000px;
+  width: 46.91%;
+  height: 39.88%;
+  top: 6.25%;
+  left: 140.45%;
   animation: ship_blue 6s linear infinite;
 }
 .ship_green {
   background-image: url(../images/ship_green.svg);
   background-size: cover;
   position: absolute;
-  width: 483px;
-  height: 412px;
-  top: 300px;
-  left: 2500px;
+  width: 33.92%;
+  height: 51.5%;
+  top: 37.5%;
+  left: 175.56%;
   animation: ship_green 8s linear infinite;
 }
 .ship_white {
   background-image: url(../images/ship_white.svg);
   background-size: cover;
   position: absolute;
-  width: 505px;
-  height: 303px;
-  bottom: 10px;
-  left: 3000px;
+  width: 35.46%;
+  height: 37.88%;
+  bottom: 1.25%;
+  left: 210.67%;
   animation: ship_white 10s linear infinite;
 }
 @keyframes ship_blue {
-  0% {left: 2000px;}
+  0% {left: 140.45%;}
   100% {left: -500px;}
 }
 @keyframes ship_green {
-  0% {left: 2500px;}
+  0% {left: 175.56%;}
   100% {left: -500px;}
 }
 @keyframes ship_white {
-  0% {left: 3000px;}
+  0% {left: 210.67%;}
   100% {left: -500px;}
 }

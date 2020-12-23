@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1440px) and (max-width: 1680px) {
+@media only screen and (min-width: 1440px) and (max-width: 1690px) {
   .hole_header_phrase {
     font-size: 44px;
   }
@@ -7,29 +7,13 @@
 }
 @media only screen and (min-width: 1366px) and (max-width: 1440px) {
   /* MacBook Pro 2020*/
-  .cosmos {
-   width: 98.5%;
-   right: calc(0% + width);
-  }
-  .stars_animate {
-   width: 98.5%;
-   right: calc(0% + width);
-  }
-}
+
 
 @media only screen and (min-width: 1280px) and (max-width: 1366px) {
-  .cosmos {
-   width: 98.5%;
-   right: calc(0% + width);
-  }
-  .stars_animate {
-   width: 98.5%;
-   right: calc(0% + width);
-  }
-}
+
 @media only screen and (min-width: 1024px) and (max-width: 1280px) {
   /* MacBook Pro 13"*/
-  .cosmos {
+  /*.cosmos {
    width: 98.5%;
    right: calc(0% + width);
   }
