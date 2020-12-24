@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1440px) and (max-width: 1690px) {
+@media only screen and (min-width: 1441px) and (max-width: 1690px) {
   .hole_header_phrase {
     font-size: 44px;
   }
@@ -75,8 +75,8 @@
     width: 19%;
   }
   .page__right_1 {
-    height: 37.37%;
-    width: 39.49%;
+    height: 37.33%;
+    width: 39.60%;
     margin-top: 0.33%;
     margin-left: -4px;
   }
@@ -115,7 +115,7 @@
   .stars_animate_sprites {
     background: url("../images/stars_animate_responsive.svg");
     background-size: cover;
-    width: 100%;
+    width: 102%;
     margin: 0 auto;
     height: 100%;
   }
@@ -123,6 +123,9 @@
     0% {left: 11%;}
     50% {left: 45%;}
     100% {left: 11%;}
+  }
+  .page_3 {
+    width: 98.88%;
   }
 }
 @media only screen and (min-width: 1080px) and (max-width: 1280px) {
@@ -182,6 +185,9 @@
     0% {left: 11%;}
     50% {left: 45%;}
     100% {left: 11%;}
+  }
+  .page_3 {
+    width: 98.78%;
   }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1080px) {
@@ -266,7 +272,7 @@
   }
   .page_3 {
     width: 94.02%;
-    margin: -1px auto 1.4% auto;
+    margin: -2px auto 1.4% auto;
   }
   .circle_blue_third-page_1{
     width: 27.2%;
@@ -285,6 +291,24 @@
   }
   .ship_white {
     width: 37.46%;
+  }
+  @keyframes circle_1 {
+   0% {opacity: 100%;}
+   45% {opacity: 100%;}
+   50% {opacity: 0%;}
+   100% {opacity: 0%;}
+  }
+  @keyframes circle_2 {
+   0% {opacity: 100%;}
+   45% {opacity: 100%;}
+   50% {opacity: 0%;}
+   100% {opacity: 0%;}
+  }
+  @keyframes circle_3 {
+   0% {opacity: 100%;}
+   50% {opacity: 100%;}
+   55% {opacity: 0%;}
+   100% {opacity: 0%;}
   }
 }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1080px) and (orientation: landscape) {
@@ -368,8 +392,8 @@
     height: 20.92%;
   }
   .page_3 {
-    width: 94.02%;
-    margin: -1px auto 1.4% auto;
+    width: 93.837%;
+    margin: -2px auto 1.4% auto;
   }
   .circle_blue_third-page_1{
     width: 27.2%;
@@ -388,6 +412,24 @@
   }
   .ship_white {
     width: 37.46%;
+  }
+  @keyframes circle_1 {
+   0% {opacity: 100%;}
+   45% {opacity: 100%;}
+   50% {opacity: 0%;}
+   100% {opacity: 0%;}
+  }
+  @keyframes circle_2 {
+   0% {opacity: 100%;}
+   45% {opacity: 100%;}
+   50% {opacity: 0%;}
+   100% {opacity: 0%;}
+  }
+  @keyframes circle_3 {
+   0% {opacity: 100%;}
+   50% {opacity: 100%;}
+   55% {opacity: 0%;}
+   100% {opacity: 0%;}
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -455,6 +497,9 @@
     height: 30.1%;
     margin: -1px 0 0 3%;
   }
+  .circle_green_2 {
+    top: 28%;
+  }
   .image_mountains_container {
     width: 63.1%;
     height: 30.1%;
@@ -473,8 +518,8 @@
     height: 20.92%;
   }
   .page_3 {
-    width: 93.85%;
-    margin: -1px auto 1.35% auto;
+    width: 93.837%;
+    margin: -2px auto 1.35% auto;
   }
   .circle_blue_third-page_1{
     width: 27.2%;
@@ -494,6 +539,24 @@
   .ship_white {
     width: 37.46%;
   }
+  @keyframes circle_1 {
+   0% {opacity: 100%;}
+   40% {opacity: 100%;}
+   45% {opacity: 0%;}
+   100% {opacity: 0%;}
+  }
+  @keyframes circle_2 {
+   0% {opacity: 100%;}
+   45% {opacity: 100%;}
+   50% {opacity: 0%;}
+   100% {opacity: 0%;}
+  }
+  @keyframes circle_3 {
+   0% {opacity: 100%;}
+   50% {opacity: 100%;}
+   55% {opacity: 0%;}
+   100% {opacity: 0%;}
+  }
 }
 
 
@@ -507,6 +570,9 @@
     height: 60.05%;
     margin: 1.4% auto 0;
   }
+  .circle_blue_first-page {
+    animation: circle 4.2s ease-in infinite;
+  }
   .hole_header_phrase {
     font-size: 5vw;
   }
@@ -514,7 +580,7 @@
     margin-top: -1px;
   }
   .white_container {
-    right: 3px;
+    right: .45%;
   }
   .page__right_1 {
     display: block;
@@ -558,14 +624,44 @@
     background-size: cover;
   }
   @keyframes move_circle {
-    0% {top: 7.2%;}
-    50% {top: 60.33%;}
-    100% {top: 7.2%;}
+    0% {top: 7.30%;}
+    50% {top: 60.17%;}
+    100% {top: 7.30%;}
   }
   .ovals_container {
     width: 60%;
     height: 55%;
     margin: -1px 0 0 3%;
+  }
+  .circle_white_1{
+    animation: circle_color .8s ease-in infinite;
+  }
+  .circle_white_2{
+    animation: circle_color_2 .4s ease-in infinite;
+  }
+  .circle_white_3{
+    animation: circle_color_3 .8s ease-in infinite;
+  }
+  .circle_white_4{
+    animation: circle_color_4 .6s ease-in infinite;
+  }
+  .circle_white_5{
+    animation: circle_color_5 .8s ease-in infinite;
+  }
+  .circle_white_6{
+    animation: circle_color_6 .5s ease-in infinite;
+  }
+  .circle_green_1{
+    animation: circle_color_7 .5s ease-in infinite;
+  }
+  .circle_green_2{
+    animation: circle_color_8 .7s ease-in infinite;
+  }
+  .circle_green_3{
+    animation: circle_color_9 .6s ease-in infinite;
+  }
+  .circle_green_4{
+    animation: circle_color_10 .8s ease-in infinite;
   }
   .image_mountains_container {
     width: 34%;
@@ -639,6 +735,24 @@
     width: 62.6%;
     height: 30%;
   }
+  @keyframes circle_1 {
+   0% {opacity: 100%;}
+   30% {opacity: 100%;}
+   35% {opacity: 0%;}
+   100% {opacity: 0%;}
+  }
+  @keyframes circle_2 {
+   0% {opacity: 100%;}
+   45% {opacity: 100%;}
+   50% {opacity: 0%;}
+   100% {opacity: 0%;}
+  }
+  @keyframes circle_3 {
+   0% {opacity: 100%;}
+   45% {opacity: 100%;}
+   50% {opacity: 0%;}
+   100% {opacity: 0%;}
+  }
 }
 @media only screen and (min-device-width: 360px) and (max-device-width: 768px) {
   .border {
@@ -650,6 +764,9 @@
     height: 60.05%;
     margin: 1.4% auto 0;
   }
+  .circle_blue_first-page {
+    animation: circle 4.2s ease-in infinite;
+  }
   .hole_header_phrase {
     font-size: 5vw;
   }
@@ -657,7 +774,7 @@
     margin-top: -1px;
   }
   .white_container {
-    right: 3px;
+    right: .45%;
   }
   .page__right_1 {
     display: block;
@@ -701,14 +818,44 @@
     background-size: cover;
   }
   @keyframes move_circle {
-    0% {top: 7.2%;}
-    50% {top: 60.33%;}
-    100% {top: 7.2%;}
+    0% {top: 7.30%;}
+    50% {top: 60.17%;}
+    100% {top: 7.30%;}
   }
   .ovals_container {
     width: 60%;
     height: 55%;
     margin: -1px 0 0 3%;
+  }
+  .circle_white_1{
+    animation: circle_color .8s ease-in infinite;
+  }
+  .circle_white_2{
+    animation: circle_color_2 .4s ease-in infinite;
+  }
+  .circle_white_3{
+    animation: circle_color_3 .8s ease-in infinite;
+  }
+  .circle_white_4{
+    animation: circle_color_4 .6s ease-in infinite;
+  }
+  .circle_white_5{
+    animation: circle_color_5 .8s ease-in infinite;
+  }
+  .circle_white_6{
+    animation: circle_color_6 .5s ease-in infinite;
+  }
+  .circle_green_1{
+    animation: circle_color_7 .5s ease-in infinite;
+  }
+  .circle_green_2{
+    animation: circle_color_8 .7s ease-in infinite;
+  }
+  .circle_green_3{
+    animation: circle_color_9 .6s ease-in infinite;
+  }
+  .circle_green_4{
+    animation: circle_color_10 .8s ease-in infinite;
   }
   .image_mountains_container {
     width: 34%;

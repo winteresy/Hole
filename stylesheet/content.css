@@ -451,6 +451,36 @@ body {
 .little_circle_green {
   background: #95C11F;
 }
+.ovals_container:hover .circle_white_1{
+  animation: circle_color .8s ease-in infinite;
+}
+.ovals_container:hover .circle_white_2{
+  animation: circle_color_2 .4s ease-in infinite;
+}
+.ovals_container:hover .circle_white_3{
+  animation: circle_color_3 .8s ease-in infinite;
+}
+.ovals_container:hover .circle_white_4{
+  animation: circle_color_4 .6s ease-in infinite;
+}
+.ovals_container:hover .circle_white_5{
+  animation: circle_color_5 .8s ease-in infinite;
+}
+.ovals_container:hover .circle_white_6{
+  animation: circle_color_6 .5s ease-in infinite;
+}
+.ovals_container:hover .circle_green_1{
+  animation: circle_color_7 .5s ease-in infinite;
+}
+.ovals_container:hover .circle_green_2{
+  animation: circle_color_8 .7s ease-in infinite;
+}
+.ovals_container:hover .circle_green_3{
+  animation: circle_color_9 .6s ease-in infinite;
+}
+.ovals_container:hover .circle_green_4{
+  animation: circle_color_10 .8s ease-in infinite;
+}
 .circle_white_1 {
   top: 14.59%;
   left: 61.48%;
@@ -460,7 +490,7 @@ body {
   left: 25.88%;
 }
 .circle_white_3 {
-  top: 40.23%;
+  top: 41%;
   left: 61.09%;
 }
 .circle_white_4 {
@@ -468,7 +498,7 @@ body {
   left: 19.46%;
 }
 .circle_white_5 {
-  top: 72.84%;
+  top: 72.99%;
   left: 49.42%;
 }
 .circle_white_6 {
@@ -484,16 +514,63 @@ body {
   left: 92.41%;
 }
 .circle_green_3 {
-  top: 59.52%;
+  top: 60%;
   left: 40.86%;
 }
 .circle_green_4 {
-  top: 84.01%;
+  top: 85%;
   left: 75.88%;
 }
-
-
-
+@keyframes circle_color {
+  0% {left: calc(61.48% + 10%);}
+  50% {left: calc(61.48% - 10%);}
+  100% {left: calc(61.48% + 10%);}
+}
+@keyframes circle_color_2 {
+  0% {left: calc(25.88% - 5%);}
+  50% {left: calc(25.88% + 5%);}
+  100% {left: calc(25.88% - 5%);}
+}
+@keyframes circle_color_3 {
+  0% {left: calc(61.09% + 10%);}
+  50% {left: calc(61.09% - 10%);}
+  100% {left: calc(61.09% + 10%);}
+}
+@keyframes circle_color_4 {
+  0% {left: calc(19.46% - 5%);}
+  50% {left: calc(19.46% + 10%);}
+  100% {left: calc(19.46% - 5%);}
+}
+@keyframes circle_color_5 {
+  0% {left: calc(49.42% + 5%);}
+  50% {left: calc(49.42% - 5%);}
+  100% {left: calc(49.42% + 5%);}
+}
+@keyframes circle_color_6 {
+  0% {left: calc(27.82% - 10%);}
+  50% {left: calc(27.82% + 10%);}
+  100% {left: calc(27.82% - 10%);}
+}
+@keyframes circle_color_7 {
+  0% {left: calc(17.51% + 5%);}
+  50% {left: calc(17.51% - 5%);}
+  100% {left: calc(17.51% + 5%);}
+}
+@keyframes circle_color_8 {
+  0% {left: calc(92.41% - 5%);}
+  50% {left: calc(92.41% + 2%);}
+  100% {left: calc(92.41% - 5%);}
+}
+@keyframes circle_color_9 {
+  0% {left: calc(40.86% - 10%);}
+  50% {left: calc(40.86% + 10%);}
+  100% {left: calc(40.86% - 10%);}
+}
+@keyframes circle_color_10 {
+  0% {left: calc(75.88% - 10%);}
+  50% {left: calc(75.88% + 4%);}
+  100% {left: calc(75.88% - 10%);}
+}
 .image_mountains_container {
   position: relative;
   display: inline-block;
