@@ -415,6 +415,7 @@ body {
   left: 5.84%;
   width: 24.9%;
   height: 16.24%;
+  z-index: 2;
 }
 .ellipse_1:hover {
   animation: wobble 1.5s linear;
@@ -425,6 +426,7 @@ body {
   left: 58.37%;
   width: 38.91%;
   height: 25.38%;
+  z-index: 2;
 }
 .ellipse_2:hover {
   animation: pulsing .5s linear;
@@ -435,6 +437,7 @@ body {
   left: 9.73%;
   width: 29.18%;
   height: 19.04%;
+  z-index: 2;
 }
 .ellipse_3:hover {
   animation: wobble 1.5s linear;
