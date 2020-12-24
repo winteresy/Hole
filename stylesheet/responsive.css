@@ -1,6 +1,6 @@
 @media only screen and (min-width: 1441px) and (max-width: 1690px) {
   .hole_header_phrase {
-    font-size: 44px;
+    font-size: 3vw;
   }
   .page__left_1 {
     width: 59.57%;
@@ -329,7 +329,7 @@
    100% {opacity: 0%;}
   }
 }
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1080px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .page__left_1 {
     display: block;
     width: 96.02%;
@@ -410,7 +410,7 @@
     height: 20.92%;
   }
   .page_3 {
-    width: 93.837%;
+    width: 93.85%;
     margin: -2px auto 1.4% auto;
   }
   .circle_blue_third-page_1{
@@ -450,7 +450,7 @@
    100% {opacity: 0%;}
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
   .page__left_1 {
     display: block;
     width: 96.02%;
